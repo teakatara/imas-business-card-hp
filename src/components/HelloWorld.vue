@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import viteLogo from '../assets/vite.svg'
-import heroImg from '../assets/hero.png'
-import vueLogo from '../assets/vue.svg'
+import { ref } from "vue";
+import heroImg from "../assets/hero.png";
+import viteLogo from "../assets/vite.svg";
+import vueLogo from "../assets/vue.svg";
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
@@ -18,11 +18,9 @@ const count = ref(0)
       <h1>Get started</h1>
       <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
     </div>
-    <button type="button" class="counter" @click="count++">
-      Count is {{ count }}
-    </button>
+    <button type="button" class="counter" @click="count++">Count is {{ count }}</button>
   </section>
-
+  <v-card title="Card title!!!!!!!!!!!!!!!!!!!!!!!!!" text="..."></v-card>
   <div class="ticks"></div>
 
   <section id="next-steps">

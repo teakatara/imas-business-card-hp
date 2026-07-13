@@ -6,7 +6,7 @@ import { P_NAME } from "@/data/const.ts";
 <template>
   <v-app>
     <v-main>
-      <v-container>
+      <v-container fluid>
         <v-row>
           <!-- P名表示 -->
           <div>

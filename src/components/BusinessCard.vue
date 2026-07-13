@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
+import { VBtn, VCard, VImg } from "vuetify/components";
 
 const { businessCardFrontFaceImageSrc } = defineProps<{
   businessCardFrontFaceImageSrc: string;

@@ -6,7 +6,13 @@ import { BUSINESS_CARD_LIST } from "@/data/const.ts";
 </script>
 
 <template>
-  <swiper :loop="true" :slides-per-view="'auto'" :space-between="16" style="width: 100%">
+  <swiper
+    :loop="true"
+    :slides-per-view="'auto'"
+    :space-between="16"
+    :centered-slides="true"
+    :centered-slides-bounds="true"
+  >
     <swiper-slide v-for="(businessCard, i) in BUSINESS_CARD_LIST" :key="i" style="width: 620px">
       <BusinessCard
         :businessCardFrontFaceImageSrc="businessCard.businessCardFrontFaceImageSrc"

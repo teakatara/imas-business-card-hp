@@ -3,7 +3,6 @@ import "unfonts.css";
 import { createVuetify } from "vuetify";
 import "vuetify/styles";
 import App from "./App.vue";
-import "./style.css";
 
 const vuetify = createVuetify();
 

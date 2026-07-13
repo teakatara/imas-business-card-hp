@@ -15,7 +15,7 @@ const onClickToggleFace = () => {
 </script>
 
 <template>
-  <v-card class="business-card">
+  <v-card class="business-card" style="width: 100%">
     <v-img v-if="isFrontFaceVisible" :src="businessCardFrontFaceImageSrc" alt="Business Card Front Face Image" />
     <v-img v-else :src="businessCardBackFaceImageSrc" alt="Business Card Back Face Image" />
     <v-btn @click="onClickToggleFace">裏返す</v-btn>

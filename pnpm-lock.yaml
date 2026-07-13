@@ -11,6 +11,9 @@ importers:
       '@fontsource/roboto':
         specifier: ^5.2.10
         version: 5.2.10
+      swiper:
+        specifier: ^14.0.5
+        version: 14.0.5
       vue:
         specifier: ^3.5.39
         version: 3.5.39(typescript@6.0.3)
@@ -612,6 +615,10 @@ packages:
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
+
+  swiper@14.0.5:
+    resolution: {integrity: sha512-SMSKS0sj+lPIFzngfIKb5cyBtzmAuJw7rXgXdyYiDReb+pSpJXuNljHYgT4DXa5Stnl2Ew2/Lam5ipv4PIqZ7A==}
+    engines: {node: '>= 4.7.0'}
 
   tiny-inflate@1.0.3:
     resolution: {integrity: sha512-pkY1fj1cKHb2seWDy0B16HeWyczlJA9/WW3u3c4z/NiWDsO3DOU5D7nhTLE9CF0yXv/QZFY7sEJmj24dK+Rrqw==}
@@ -1304,6 +1311,8 @@ snapshots:
       queue-microtask: 1.2.3
 
   source-map-js@1.2.1: {}
+
+  swiper@14.0.5: {}
 
   tiny-inflate@1.0.3: {}
 

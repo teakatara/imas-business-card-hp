@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/vue";
+
 import BusinessCard from "@/components/BusinessCard.vue";
 import { BUSINESS_CARD_LIST } from "@/data/const.ts";
 </script>

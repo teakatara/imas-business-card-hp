@@ -1,18 +1,12 @@
 <script setup lang="ts">
-import { ref } from "vue";
-
 import { VBtn, VCard, VImg } from "vuetify/components";
 
 const { businessCardFrontFaceImageSrc } = defineProps<{
   businessCardFrontFaceImageSrc: string;
   businessCardBackFaceImageSrc: string;
+  isFrontFaceVisible: boolean;
+  onClickToggleFace: () => void;
 }>();
-
-const isFrontFaceVisible = ref<boolean>(true);
-
-const onClickToggleFace = () => {
-  isFrontFaceVisible.value = !isFrontFaceVisible.value;
-};
 </script>
 
 <template>

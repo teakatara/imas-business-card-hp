@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import BusinessCardCarousel from "@/components/BusinessCardCarousel.vue";
-import GameIdList from "@/components/GameIdList.vue";
+import ProducerInfomationArea from "@/components/ProducerInfomationArea.vue";
 import { P_NAME } from "@/data/const.ts";
 </script>
 
@@ -20,7 +20,7 @@ import { P_NAME } from "@/data/const.ts";
         </v-row>
         <v-row>
           <!-- 各ブランド情報表示 -->
-          <GameIdList />
+          <ProducerInfomationArea />
         </v-row>
       </v-container>
     </v-main>

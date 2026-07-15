@@ -1,10 +1,24 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, watch } from "vue";
 
 import { GAME_ID_LIST } from "@/data/const";
+import type { Brand } from "@/types/Brand";
 import type { GameId } from "@/types/GameId";
 
+const { selectedBrand } = defineProps<{
+  selectedBrand: Brand;
+}>();
+
 const gameIdList = ref<GameId[]>(GAME_ID_LIST);
+
+// selectedBrandが変更されたときに、gameIdListを更新する
+watch(
+  () => selectedBrand,
+  (newValue: Brand | undefined) => {
+    gameIdList.value = GAME_ID_LIST.filter((item: GameId) => newValue === undefined || item.brand === newValue);
+    // console.log("GameIdList: selectedBrand changed to ", newValue);
+  },
+);
 </script>
 
 <template>

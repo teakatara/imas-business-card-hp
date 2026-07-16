@@ -31,7 +31,7 @@ watch(
     </v-row>
     <v-row>
       <v-list lines="two" class="d-flex flex-wrap">
-        <v-list-item v-for="item in likeMusicList" :key="item.name">
+        <v-list-item v-for="item in produceIdolList" :key="item.name">
           <template v-slot:title>
             <span style="word-break: keep-all; overflow-wrap: break-word; white-space: normal">{{ item.name }}</span>
           </template>

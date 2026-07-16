@@ -4,6 +4,7 @@ import { ref, watch } from "vue";
 import { LIKE_MUSIC_LIST } from "@/data/const";
 import type { Brand } from "@/types/Brand";
 import type { Music } from "@/types/Music";
+import { getBrandIconPath } from "@/utils/image-utils";
 
 const { selectedBrand } = defineProps<{
   selectedBrand: Brand | undefined;
@@ -19,30 +20,6 @@ watch(
     // console.log("LikeMusicList: selectedBrand changed to ", newValue);
   },
 );
-
-/**
- * ブランド識別子からブランドロゴのパスを取得する
- * @param brand ブランド識別子
- * @returns ブランドロゴのパス
- */
-const getBrandIconPath = (brand: Brand): string => {
-  switch (brand) {
-    case "AS":
-      return "/src/assets/imgs/brand-icons/AS.png";
-    case "CG":
-      return "/src/assets/imgs/brand-icons/CG.png";
-    case "ML":
-      return "/src/assets/imgs/brand-icons/ML.png";
-    case "SM":
-      return "/src/assets/imgs/brand-icons/SM.png";
-    case "SC":
-      return "/src/assets/imgs/brand-icons/SC.png";
-    case "Gk":
-      return "/src/assets/imgs/brand-icons/Gk.png";
-    default:
-      return "";
-  }
-};
 </script>
 
 <template>

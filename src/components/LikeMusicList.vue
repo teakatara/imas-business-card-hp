@@ -28,7 +28,7 @@ watch(
       <h2>Like Music List</h2>
     </v-row>
     <v-row>
-      <v-list lines="two">
+      <v-list lines="two" class="d-flex flex-wrap">
         <v-list-item v-for="item in likeMusicList" :key="item.title">
           <template v-slot:title>
             <span style="word-break: keep-all; overflow-wrap: break-word; white-space: normal">{{ item.title }}</span>

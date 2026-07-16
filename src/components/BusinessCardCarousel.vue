@@ -91,7 +91,7 @@ const businessCardList = ref<BusinessCardInfoWithState[]>(businessCardOptions.bu
     <swiper-slide
       v-for="(businessCard, i) in businessCardList"
       :key="i"
-      style="max-width: 100%; min-width: 35%; width: 700px"
+      style="max-width: 100%; min-width: 35%; width: 620px"
     >
       <BusinessCard
         :businessCardFrontFaceImageSrc="businessCard.businessCardFrontFaceImageSrc"

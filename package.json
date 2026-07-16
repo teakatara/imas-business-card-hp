@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "sh ./scripts/deploy-release.sh"
   },
   "dependencies": {
+    "@fontsource/caveat": "^5.2.8",
     "@fontsource/roboto": "^5.2.10",
     "swiper": "^14.0.5",
     "vue": "^3.5.39",

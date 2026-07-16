@@ -21,12 +21,17 @@ export default defineConfig({
       fontsource: {
         families: [
           {
-            name: "Roboto",
-            weights: [100, 300, 400, 500, 700, 900],
-            styles: ["normal", "italic"],
+            name: "Caveat",
+            weights: [400, 500, 600, 700],
+            styles: ["normal"],
+            subsets: ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
           },
         ],
       },
     }),
   ],
+  base: "./",
+  build: {
+    assetsInlineLimit: 0,
+  },
 });

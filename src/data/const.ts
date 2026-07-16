@@ -6,7 +6,7 @@ import type { GameId } from "@/types/GameId";
 import type { Music } from "@/types/Music";
 import type { ProduceIdol } from "@/types/ProduceIdol";
 
-export const P_NAME: string = "ティー";
+export const P_NAME: string = "Tea";
 
 export const BUSINESS_CARD_LIST: BusinessCardInfo[] = [
   {

@@ -31,4 +31,7 @@ export default defineConfig({
     }),
   ],
   base: "./",
+  build: {
+    assetsInlineLimit: 0,
+  },
 });

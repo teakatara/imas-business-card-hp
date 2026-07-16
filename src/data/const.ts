@@ -1,7 +1,7 @@
 import type { BusinessCardInfo } from "@/types/BusinessCard";
 import type { GameId } from "@/types/GameId";
-import type { ManageIdol } from "@/types/ManageIdol";
 import type { Music } from "@/types/Music";
+import type { ProduceIdol } from "@/types/ProduceIdol";
 
 export const P_NAME: string = "ティー";
 
@@ -51,7 +51,7 @@ export const LIKE_MUSIC_LIST: Music[] = [
   },
 ];
 
-export const MANAGE_IDOL_LIST: ManageIdol[] = [
+export const PRODUCE_IDOL_LIST: ProduceIdol[] = [
   {
     name: "水瀬伊織",
     brand: "AS",

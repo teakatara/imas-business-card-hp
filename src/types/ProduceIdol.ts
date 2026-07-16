@@ -3,7 +3,7 @@ import type { Brand } from "@/types/Brand";
 /**
  * アイドル情報の型定義
  */
-export interface ManageIdol {
+export interface ProduceIdol {
   /** アイドルの名前 */
   name: string;
   /** 所属ブランド */

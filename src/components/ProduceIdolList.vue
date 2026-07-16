@@ -1,25 +1,25 @@
 <script setup lang="ts">
 import { ref, watch } from "vue";
 
-import { MANAGE_IDOL_LIST } from "@/data/const";
+import { PRODUCE_IDOL_LIST } from "@/data/const";
 import type { Brand } from "@/types/Brand";
-import type { ManageIdol } from "@/types/ManageIdol";
+import type { ProduceIdol } from "@/types/ProduceIdol";
 import { getBrandIconPath } from "@/utils/image-utils";
 
 const { selectedBrand } = defineProps<{
   selectedBrand: Brand | undefined;
 }>();
 
-const likeMusicList = ref<ManageIdol[]>(MANAGE_IDOL_LIST);
+const likeMusicList = ref<ProduceIdol[]>(PRODUCE_IDOL_LIST);
 
 // selectedBrandが変更されたときに、likeMusicListを更新する
 watch(
   () => selectedBrand,
   (newValue: Brand | undefined) => {
-    likeMusicList.value = MANAGE_IDOL_LIST.filter(
-      (item: ManageIdol) => newValue === undefined || item.brand === newValue,
+    likeMusicList.value = PRODUCE_IDOL_LIST.filter(
+      (item: ProduceIdol) => newValue === undefined || item.brand === newValue,
     );
-    // console.log("ManageIdolList: selectedBrand changed to ", newValue);
+    // console.log("ProduceIdolList: selectedBrand changed to ", newValue);
   },
 );
 </script>
@@ -27,7 +27,7 @@ watch(
 <template>
   <v-container>
     <v-row>
-      <h2>Manage Idol List</h2>
+      <h2>Produce Idol List</h2>
     </v-row>
     <v-row>
       <v-list lines="two" class="d-flex flex-wrap">

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import BusinessCardCarousel from "@/components/BusinessCardCarousel.vue";
 import ProducerInformationArea from "@/components/ProducerInformationArea.vue";
-import { P_NAME } from "@/data/const.ts";
+import Title from "@/components/Title.vue";
 </script>
 
 <template>
@@ -10,9 +10,7 @@ import { P_NAME } from "@/data/const.ts";
       <v-container fluid>
         <v-row>
           <!-- P名表示 -->
-          <div>
-            {{ P_NAME }}
-          </div>
+          <Title />
         </v-row>
         <v-row>
           <!-- カルーセルで名刺表示 -->

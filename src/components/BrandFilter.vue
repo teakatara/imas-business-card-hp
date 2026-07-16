@@ -3,9 +3,9 @@ import { ref } from "vue";
 
 import type { Brand } from "@/types/Brand";
 
-const selectedBrand = ref<Brand>(undefined);
+const selectedBrand = ref<Brand | undefined>(undefined);
 
-const onClickBrandButton = (brand: Brand) => {
+const onClickBrandButton = (brand: Brand | undefined) => {
   selectedBrand.value = brand;
   console.log("BrandFilter: selectedBrand.value = ", selectedBrand.value);
 };

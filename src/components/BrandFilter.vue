@@ -14,7 +14,15 @@ const isBrand = (brand: string | undefined): brand is Brand =>
   brand === "Gk";
 
 const onClickBrandButton = (event: MouseEvent) => {
-  const brand = (event.currentTarget as HTMLElement | null)?.dataset.brand;
+  const currentTarget = event.currentTarget as HTMLElement | null;
+
+  if (!currentTarget?.hasAttribute("data-brand")) {
+    selectedBrand.value = undefined;
+    console.log("BrandFilter: selectedBrand.value = ", selectedBrand.value);
+    return;
+  }
+
+  const brand = currentTarget.dataset.brand;
   selectedBrand.value = isBrand(brand) ? brand : undefined;
   console.log("BrandFilter: selectedBrand.value = ", selectedBrand.value);
 };
@@ -27,7 +35,7 @@ defineExpose({
 <template>
   <v-container>
     <v-row class="d-flex align-center justify-center fill-height">
-      <v-btn data-brand="" @click="onClickBrandButton">ALL</v-btn>
+      <v-btn @click="onClickBrandButton">ALL</v-btn>
       <v-btn data-brand="AS" @click="onClickBrandButton">AS</v-btn>
       <v-btn data-brand="CG" @click="onClickBrandButton">CG</v-btn>
       <v-btn data-brand="ML" @click="onClickBrandButton">ML</v-btn>

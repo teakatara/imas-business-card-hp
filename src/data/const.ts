@@ -1,5 +1,6 @@
 import type { BusinessCardInfo } from "@/types/BusinessCard";
 import type { GameId } from "@/types/GameId";
+import type { ManageIdol } from "@/types/ManageIdol";
 import type { Music } from "@/types/Music";
 
 export const P_NAME: string = "ティー";
@@ -47,5 +48,28 @@ export const LIKE_MUSIC_LIST: Music[] = [
     title: "瑠璃色金魚と花菖蒲",
     artist: "白石紬",
     brand: "ML",
-  }
+  },
+];
+
+export const MANAGE_IDOL_LIST: ManageIdol[] = [
+  {
+    name: "水瀬伊織",
+    brand: "AS",
+  },
+  {
+    name: "依田芳乃",
+    brand: "CG",
+  },
+  {
+    name: "白石紬",
+    brand: "ML",
+  },
+  {
+    name: "杜野凛世",
+    brand: "SC",
+  },
+  {
+    name: "葛城リーリヤ",
+    brand: "Gk",
+  },
 ];

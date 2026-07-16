@@ -3,5 +3,5 @@ import { P_NAME } from "@/data/const";
 </script>
 
 <template>
-  <h1>{{ P_NAME }}のプロデューサー情報</h1>
+  <h1>{{ P_NAME }}'s Producer Information</h1>
 </template>

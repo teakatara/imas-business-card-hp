@@ -1,5 +1,6 @@
 import type { BusinessCardInfo } from "@/types/BusinessCard";
 import type { GameId } from "@/types/GameId";
+import type { Music } from "@/types/Music";
 
 export const P_NAME: string = "ティー";
 
@@ -34,4 +35,17 @@ export const GAME_ID_LIST: GameId[] = [
     icon: "/src/assets/imgs/game-icons/アプリアイコンサイズの画像.png",
     brand: "ML",
   },
+];
+
+export const LIKE_MUSIC_LIST: Music[] = [
+  {
+    title: "夢にかけるRainbow",
+    artist: "765 MILLION ALLSTARS",
+    brand: "ML",
+  },
+  {
+    title: "瑠璃色金魚と花菖蒲",
+    artist: "白石紬",
+    brand: "ML",
+  }
 ];

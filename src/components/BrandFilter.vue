@@ -2,17 +2,14 @@
 import { ref } from "vue";
 
 import type { Brand } from "@/types/Brand";
+import { isBrand } from "@/utils/brand-utils";
 
 const selectedBrand = ref<Brand | undefined>(undefined);
 
-const isBrand = (brand: string | undefined): brand is Brand =>
-  brand === "AS" ||
-  brand === "CG" ||
-  brand === "ML" ||
-  brand === "SM" ||
-  brand === "SC" ||
-  brand === "Gk";
-
+/**
+ * 各ブランドボタンがクリックされた時に、選択されているブランドを保持する処理
+ * @param event マウスクリックイベント
+ */
 const onClickBrandButton = (event: MouseEvent) => {
   const currentTarget = event.currentTarget as HTMLElement | null;
 

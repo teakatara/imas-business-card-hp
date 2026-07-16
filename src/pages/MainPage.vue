@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import BusinessCardCarousel from "@/components/BusinessCardCarousel.vue";
-import ProducerInfomationArea from "@/components/ProducerInfomationArea.vue";
+import ProducerInformationArea from "@/components/ProducerInformationArea.vue";
 import { P_NAME } from "@/data/const.ts";
 </script>
 
@@ -20,7 +20,7 @@ import { P_NAME } from "@/data/const.ts";
         </v-row>
         <v-row>
           <!-- 各ブランド情報表示 -->
-          <ProducerInfomationArea />
+          <ProducerInformationArea />
         </v-row>
       </v-container>
     </v-main>

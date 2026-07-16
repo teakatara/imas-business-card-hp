@@ -6,7 +6,7 @@ import type { Brand } from "@/types/Brand";
 import type { GameId } from "@/types/GameId";
 
 const { selectedBrand } = defineProps<{
-  selectedBrand: Brand;
+  selectedBrand: Brand | undefined;
 }>();
 
 const gameIdList = ref<GameId[]>(GAME_ID_LIST);

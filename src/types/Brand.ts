@@ -1,1 +1,1 @@
-export type Brand = "AS" | "CG" | "ML" | "SM" | "SC" | "Gk" | undefined;
+export type Brand = "AS" | "CG" | "ML" | "SM" | "SC" | "Gk";

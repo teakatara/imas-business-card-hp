@@ -8,17 +8,17 @@ import type { Brand } from "@/types/Brand";
 export const getBrandIconPath = (brand: Brand): string => {
   switch (brand) {
     case "AS":
-      return "/src/assets/imgs/brand-icons/AS.png";
+      return new URL("../assets/imgs/brand-icons/AS.png", import.meta.url).href;
     case "CG":
-      return "/src/assets/imgs/brand-icons/CG.png";
+      return new URL("../assets/imgs/brand-icons/CG.png", import.meta.url).href;
     case "ML":
-      return "/src/assets/imgs/brand-icons/ML.png";
+      return new URL("../assets/imgs/brand-icons/ML.png", import.meta.url).href;
     case "SM":
-      return "/src/assets/imgs/brand-icons/SM.png";
+      return new URL("../assets/imgs/brand-icons/SM.png", import.meta.url).href;
     case "SC":
-      return "/src/assets/imgs/brand-icons/SC.png";
+      return new URL("../assets/imgs/brand-icons/SC.png", import.meta.url).href;
     case "Gk":
-      return "/src/assets/imgs/brand-icons/Gk.png";
+      return new URL("../assets/imgs/brand-icons/Gk.png", import.meta.url).href;
     default:
       return "";
   }

@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "pnpm run build && (git branch -D release-temp >/dev/null 2>&1 || true) && git subtree split --prefix dist -b release-temp"
   },
   "dependencies": {
     "@fontsource/caveat": "^5.2.8",

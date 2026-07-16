@@ -18,13 +18,13 @@ const onClickBrandButton = (event: MouseEvent) => {
 
   if (!currentTarget?.hasAttribute("data-brand")) {
     selectedBrand.value = undefined;
-    console.log("BrandFilter: selectedBrand.value = ", selectedBrand.value);
+    // console.log("BrandFilter: selectedBrand.value = ", selectedBrand.value);
     return;
   }
 
   const brand = currentTarget.dataset.brand;
   selectedBrand.value = isBrand(brand) ? brand : undefined;
-  console.log("BrandFilter: selectedBrand.value = ", selectedBrand.value);
+  // console.log("BrandFilter: selectedBrand.value = ", selectedBrand.value);
 };
 
 defineExpose({

@@ -4,6 +4,7 @@ import { ref, watch } from "vue";
 import { GAME_ID_LIST } from "@/data/const";
 import type { Brand } from "@/types/Brand";
 import type { GameId } from "@/types/GameId";
+import { getImagePath } from "@/utils/image-utils";
 
 const { selectedBrand } = defineProps<{
   selectedBrand: Brand | undefined;
@@ -36,7 +37,7 @@ watch(
             <span style="word-break: keep-all; overflow-wrap: break-word; white-space: normal">{{ item.gameId }}</span>
           </template>
           <template v-slot:prepend>
-            <v-avatar :image="item.icon" rounded="5"></v-avatar>
+            <v-avatar :image="getImagePath(item.icon)" rounded="5"></v-avatar>
           </template>
         </v-list-item>
       </v-list>

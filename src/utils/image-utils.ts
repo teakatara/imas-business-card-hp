@@ -23,3 +23,12 @@ export const getBrandIconPath = (brand: Brand): string => {
       return "";
   }
 };
+
+/**
+ * 画像パスから画像のURLを取得する
+ * @param imageSrc 画像パス
+ * @returns 画像のURL
+ */
+export const getImagePath = (imageSrc: string): string => {
+  return new URL(imageSrc, import.meta.url).href;
+};

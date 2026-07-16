@@ -10,13 +10,13 @@ const { selectedBrand } = defineProps<{
   selectedBrand: Brand | undefined;
 }>();
 
-const likeMusicList = ref<ProduceIdol[]>(PRODUCE_IDOL_LIST);
+const produceIdolList = ref<ProduceIdol[]>(PRODUCE_IDOL_LIST);
 
-// selectedBrandが変更されたときに、likeMusicListを更新する
+// selectedBrandが変更されたときに、produceIdolListを更新する
 watch(
   () => selectedBrand,
   (newValue: Brand | undefined) => {
-    likeMusicList.value = PRODUCE_IDOL_LIST.filter(
+    produceIdolList.value = PRODUCE_IDOL_LIST.filter(
       (item: ProduceIdol) => newValue === undefined || item.brand === newValue,
     );
     // console.log("ProduceIdolList: selectedBrand changed to ", newValue);

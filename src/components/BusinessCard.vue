@@ -35,7 +35,7 @@ const { isFrontFaceVisible, businessCardFrontFaceImageSrc, businessCardBackFaceI
     <link rel="preload" as="image" :href="businessCardFrontFaceImageSrc" />
     <link rel="preload" as="image" :href="businessCardBackFaceImageSrc" />
 
-    <v-btn @click="onClickToggleFace" class="reverse-button" :icon="mdiSync" />
+    <v-btn @click="onClickToggleFace" class="reverse-button" :icon="mdiSync" aria-label="裏返す" title="裏返す" />
   </v-card>
 </template>
 

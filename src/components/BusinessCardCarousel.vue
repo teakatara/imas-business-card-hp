@@ -115,7 +115,6 @@ const businessCardList = ref<BusinessCardInfoWithState[]>(businessCardOptions.bu
 :deep(.swiper-button-next),
 :deep(.swiper-button-prev) {
   color: #000;
-  max-width: 5%;
-  height: auto;
+  opacity: 0.5;
 }
 </style>

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { mdiSync } from "@mdi/js";
 import { VBtn, VCard } from "vuetify/components";
 
 // defineProps の受け取り方を元の形に合わせ、すべてテンプレートで使えるように修正
@@ -34,7 +35,7 @@ const { isFrontFaceVisible, businessCardFrontFaceImageSrc, businessCardBackFaceI
     <link rel="preload" as="image" :href="businessCardFrontFaceImageSrc" />
     <link rel="preload" as="image" :href="businessCardBackFaceImageSrc" />
 
-    <v-btn @click="onClickToggleFace" class="reverse-button">裏返す</v-btn>
+    <v-btn @click="onClickToggleFace" class="reverse-button" :icon="mdiSync" />
   </v-card>
 </template>
 

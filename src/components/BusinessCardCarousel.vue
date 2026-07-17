@@ -2,6 +2,8 @@
 import { type Ref, ref } from "vue";
 
 import "swiper/css";
+import "swiper/css/navigation";
+import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 import BusinessCard from "@/components/BusinessCard.vue";
@@ -87,6 +89,12 @@ const businessCardList = ref<BusinessCardInfoWithState[]>(businessCardOptions.bu
     :centered-slides="true"
     :centered-slides-bounds="true"
     :slides-per-group="1"
+    :autoplay="{
+      delay: 5000, // 5秒後に次のスライド
+      disableOnInteraction: false, // 矢印をクリックしても自動再生を止めない
+    }"
+    :navigation="true"
+    :modules="[Autoplay, Navigation]"
   >
     <swiper-slide
       v-for="(businessCard, i) in businessCardList"
@@ -102,3 +110,11 @@ const businessCardList = ref<BusinessCardInfoWithState[]>(businessCardOptions.bu
     </swiper-slide>
   </swiper>
 </template>
+
+<style scoped>
+:deep(.swiper-button-next),
+:deep(.swiper-button-prev) {
+  color: #000;
+  opacity: 0.5;
+}
+</style>

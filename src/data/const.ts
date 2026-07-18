@@ -1,6 +1,16 @@
-import businessCardBackFaceImage from "@/assets/imgs/business-cards/名刺サイズの画像2.png";
-import businessCardFrontFaceImage from "@/assets/imgs/business-cards/名刺サイズの画像.png";
-import gameIconImage from "@/assets/imgs/game-icons/アプリアイコンサイズの画像.png";
+import IWSF_BACK_IMAGE from "@/assets/imgs/business-cards/IWSF2026/business-card-back.png";
+import IWSF_FRONT_IMAGE from "@/assets/imgs/business-cards/IWSF2026/business-card-front.png";
+import ACT_2_BACK_IMAGE from "@/assets/imgs/business-cards/ML10th-Act2/business-card-back.png";
+import ACT_2_FRONT_IMAGE from "@/assets/imgs/business-cards/ML10th-Act2/business-card-front.png";
+import ACT_3_BACK_IMAGE from "@/assets/imgs/business-cards/ML10th-Act3/business-card-back.png";
+import ACT_3_FRONT_IMAGE from "@/assets/imgs/business-cards/ML10th-Act3/business-card-front.png";
+import ACT_4_BACK_IMAGE from "@/assets/imgs/business-cards/ML10th-Act4/business-card-back.png";
+import ACT_4_FRONT_IMAGE from "@/assets/imgs/business-cards/ML10th-Act4/business-card-front.png";
+import CINDERELLA_GIRLS_STARLIGHT_STAGE_ICON_IMAGE from "@/assets/imgs/game-icons/CINDERELLA-GIRLS_STARLIGHT-STAGE.png";
+import GAKUEN_ICON_IMAGE from "@/assets/imgs/game-icons/Gakuen.png";
+import MILLION_LIVE_THEATER_DAYS_ICON_IMAGE from "@/assets/imgs/game-icons/MILLION-LIVE!_THEATER-DAYS.png";
+import SHINY_COLORS_ICON_IMAGE from "@/assets/imgs/game-icons/SHINY-COLORS.png";
+import SHINY_COLORS_SFP_ICON_IMAGE from "@/assets/imgs/game-icons/SHINY-COLORS_SONG-FOR-PRISM.png";
 import type { Brand } from "@/types/Brand";
 import type { BusinessCardInfo } from "@/types/BusinessCard";
 import type { GameId } from "@/types/GameId";
@@ -11,19 +21,24 @@ export const P_NAME: string = "Tea";
 
 export const BUSINESS_CARD_LIST: BusinessCardInfo[] = [
   {
-    note: "仮名刺1",
-    businessCardFrontFaceImageSrc: businessCardFrontFaceImage,
-    businessCardBackFaceImageSrc: businessCardBackFaceImage,
+    note: "Act-2",
+    businessCardFrontFaceImageSrc: ACT_2_FRONT_IMAGE,
+    businessCardBackFaceImageSrc: ACT_2_BACK_IMAGE,
   },
   {
-    note: "仮名刺2",
-    businessCardFrontFaceImageSrc: businessCardFrontFaceImage,
-    businessCardBackFaceImageSrc: businessCardBackFaceImage,
+    note: "IWSF2026",
+    businessCardFrontFaceImageSrc: IWSF_FRONT_IMAGE,
+    businessCardBackFaceImageSrc: IWSF_BACK_IMAGE,
   },
   {
-    note: "仮名刺3",
-    businessCardFrontFaceImageSrc: businessCardFrontFaceImage,
-    businessCardBackFaceImageSrc: businessCardBackFaceImage,
+    note: "Act-4",
+    businessCardFrontFaceImageSrc: ACT_4_FRONT_IMAGE,
+    businessCardBackFaceImageSrc: ACT_4_BACK_IMAGE,
+  },
+  {
+    note: "Act-3",
+    businessCardFrontFaceImageSrc: ACT_3_FRONT_IMAGE,
+    businessCardBackFaceImageSrc: ACT_3_BACK_IMAGE,
   },
 ];
 
@@ -40,15 +55,33 @@ export const BRAND_COLOR: Record<Brand, string> = {
 export const GAME_ID_LIST: GameId[] = [
   {
     title: "アイドルマスター シンデレラガールズ スターライトステージ",
-    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
-    icon: gameIconImage,
+    gameId: "809649120",
+    icon: CINDERELLA_GIRLS_STARLIGHT_STAGE_ICON_IMAGE,
     brand: "CG",
   },
   {
     title: "アイドルマスター ミリオンライブ！ シアターデイズ",
-    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
-    icon: gameIconImage,
+    gameId: "QUJW55MJ",
+    icon: MILLION_LIVE_THEATER_DAYS_ICON_IMAGE,
     brand: "ML",
+  },
+  {
+    title: "アイドルマスター シャイニーカラーズ",
+    gameId: "xfZh7LXJQK",
+    icon: SHINY_COLORS_ICON_IMAGE,
+    brand: "SC",
+  },
+  {
+    title: "アイドルマスター シャイニーカラーズ Song for Prism",
+    gameId: "U8LSSKAYH",
+    icon: SHINY_COLORS_SFP_ICON_IMAGE,
+    brand: "SC",
+  },
+  {
+    title: "学園アイドルマスター",
+    gameId: "256JSYG8",
+    icon: GAKUEN_ICON_IMAGE,
+    brand: "Gk",
   },
 ];
 

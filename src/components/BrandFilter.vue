@@ -32,7 +32,10 @@ defineExpose({
 
 <template>
   <v-container>
-    <v-row class="d-flex align-center justify-center fill-height">
+    <v-row>
+      <h2>Brand Filter</h2>
+    </v-row>
+    <v-row class="d-flex align-center justify-center mt-0">
       <BrandFilterButton @click="onClickBrandButton" />
       <BrandFilterButton :brand="'AS'" @click="onClickBrandButton" />
       <BrandFilterButton :brand="'CG'" @click="onClickBrandButton" />

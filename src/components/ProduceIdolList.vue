@@ -36,7 +36,11 @@ watch(
             <span class="idol-name">{{ item.name }}</span>
           </template>
           <template v-slot:prepend>
-            <v-avatar :icon="item.icon ?? getBrandIconPath(item.brand)" class="avatar-icon"></v-avatar>
+            <v-avatar
+              :image="item.icon"
+              :icon="item.icon === undefined ? getBrandIconPath(item.brand) : undefined"
+              class="avatar-icon"
+            ></v-avatar>
           </template>
         </v-list-item>
       </v-list>

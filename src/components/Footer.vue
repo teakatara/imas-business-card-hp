@@ -1,6 +1,14 @@
 <script setup lang="ts">
+import { ref } from "vue";
+
 import xLogo from "@/assets/imgs/logo-black.png";
+import AboutSiteModal from "@/components/AboutSiteModal.vue";
 import { xId } from "@/data/const";
+
+const modalRef = ref<InstanceType<typeof AboutSiteModal> | null>(null);
+const openAboutModal = (): void => {
+  modalRef.value?.openAboutModal();
+};
 </script>
 
 <template>
@@ -13,9 +21,10 @@ import { xId } from "@/data/const";
         <span> @{{ xId }} </span>
       </v-row>
       <v-row justify="center">
-        <a> 当サイトについて </a>
+        <a href="#" class="about-link" @click.prevent="openAboutModal"> 当サイトについて </a>
       </v-row>
     </v-container>
+    <AboutSiteModal ref="modalRef" />
   </v-footer>
 </template>
 
@@ -27,5 +36,11 @@ import { xId } from "@/data/const";
 .x-button {
   width: 30px;
   height: 30px;
+}
+
+.about-link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
 }
 </style>

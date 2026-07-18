@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
+import BrandFilterButton from "@/components/BrandFilterButton.vue";
 import type { Brand } from "@/types/Brand";
 import { isBrand } from "@/utils/brand-utils";
 
@@ -31,14 +32,17 @@ defineExpose({
 
 <template>
   <v-container>
-    <v-row class="d-flex align-center justify-center fill-height">
-      <v-btn @click="onClickBrandButton">ALL</v-btn>
-      <v-btn data-brand="AS" @click="onClickBrandButton">AS</v-btn>
-      <v-btn data-brand="CG" @click="onClickBrandButton">CG</v-btn>
-      <v-btn data-brand="ML" @click="onClickBrandButton">ML</v-btn>
-      <v-btn data-brand="SM" @click="onClickBrandButton">SM</v-btn>
-      <v-btn data-brand="SC" @click="onClickBrandButton">SC</v-btn>
-      <v-btn data-brand="Gk" @click="onClickBrandButton">Gk</v-btn>
+    <v-row>
+      <h2>Brand Filter</h2>
+    </v-row>
+    <v-row class="d-flex align-center justify-center mt-0">
+      <BrandFilterButton :selected-brand="selectedBrand" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'AS'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'CG'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'ML'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'SM'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'SC'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'Gk'" @click="onClickBrandButton" />
     </v-row>
   </v-container>
 </template>

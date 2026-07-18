@@ -31,16 +31,31 @@ watch(
       <v-list lines="two" class="d-flex flex-wrap">
         <v-list-item v-for="item in likeMusicList" :key="item.title">
           <template v-slot:title>
-            <span style="word-break: keep-all; overflow-wrap: break-word; white-space: normal">{{ item.title }}</span>
+            <span class="text-style">{{ item.title }}</span>
           </template>
           <template v-slot:subtitle>
-            <span style="word-break: keep-all; overflow-wrap: break-word; white-space: normal">{{ item.artist }}</span>
+            <span class="text-style">{{ item.artist }}</span>
           </template>
           <template v-slot:prepend>
-            <v-avatar :image="getBrandIconPath(item.brand)" rounded="5"></v-avatar>
+            <v-avatar :icon="getBrandIconPath(item.brand)" class="avatar-icon"></v-avatar>
           </template>
         </v-list-item>
       </v-list>
     </v-row>
   </v-container>
 </template>
+
+<style lang="css" scoped>
+.text-style {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.avatar-icon {
+  border-radius: 50%;
+  box-shadow: 0 5px 10px 0 rgba(137, 156, 174, 0.5);
+  padding: 0.5rem;
+  transform: scale(1.25);
+}
+</style>

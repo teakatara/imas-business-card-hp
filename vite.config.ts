@@ -26,6 +26,12 @@ export default defineConfig({
             styles: ["normal"],
             subsets: ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
           },
+          {
+            name: "Kaisei Tokumin",
+            weights: [400, 500, 700, 800],
+            styles: ["normal"],
+            subsets: ["cyrillic", "latin", "latin-ext", "japanese"],
+          },
         ],
       },
     }),

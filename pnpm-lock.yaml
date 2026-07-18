@@ -11,6 +11,9 @@ importers:
       '@fontsource/caveat':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource/kaisei-tokumin':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@fontsource/roboto':
         specifier: ^5.2.10
         version: 5.2.10
@@ -112,6 +115,9 @@ packages:
 
   '@fontsource/caveat@5.2.8':
     resolution: {integrity: sha512-9fUUfFE2IQFKbx+xOcaeQxxmh8iJguEb8z+j1PeueO4UUx+XfT4pRm/B04ZDvFA794/iRxY/IibmP8ZKtIf4rw==}
+
+  '@fontsource/kaisei-tokumin@5.2.8':
+    resolution: {integrity: sha512-N/TorOQHVxxSWrfUrze/aPad4eHpitk6SKHzD0V1158IjP5rxwVzAdaJfPz5Nrq59Ap7NlmKjGG+4nAaU5LqZg==}
 
   '@fontsource/roboto@5.2.10':
     resolution: {integrity: sha512-8HlA5FtSfz//oFSr2eL7GFXAiE7eIkcGOtx7tjsLKq+as702x9+GU7K95iDeWFapHC4M2hv9RrpXKRTGGBI8Zg==}
@@ -866,6 +872,8 @@ snapshots:
     optional: true
 
   '@fontsource/caveat@5.2.8': {}
+
+  '@fontsource/kaisei-tokumin@5.2.8': {}
 
   '@fontsource/roboto@5.2.10': {}
 

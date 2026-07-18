@@ -11,16 +11,16 @@ const brandFilterRef = ref<InstanceType<typeof BrandFilter> | null>(null);
 
 <template>
   <v-container>
-    <v-row>
+    <v-row class="mt-0">
       <BrandFilter ref="brandFilterRef" />
     </v-row>
-    <v-row>
+    <v-row class="mt-0">
       <ProduceIdolList :selected-brand="brandFilterRef?.selectedBrand" />
     </v-row>
-    <v-row>
+    <v-row class="mt-0">
       <GameIdList :selected-brand="brandFilterRef?.selectedBrand" />
     </v-row>
-    <v-row>
+    <v-row class="mt-0">
       <LikeMusicList :selected-brand="brandFilterRef?.selectedBrand" />
     </v-row>
   </v-container>

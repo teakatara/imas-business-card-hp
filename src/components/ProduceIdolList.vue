@@ -33,13 +33,32 @@ watch(
       <v-list lines="two" class="d-flex flex-wrap">
         <v-list-item v-for="item in produceIdolList" :key="item.name">
           <template v-slot:title>
-            <span style="word-break: keep-all; overflow-wrap: break-word; white-space: normal">{{ item.name }}</span>
+            <span class="idol-name">{{ item.name }}</span>
           </template>
           <template v-slot:prepend>
-            <v-avatar :image="item.icon ?? getBrandIconPath(item.brand)" rounded="5"></v-avatar>
+            <v-avatar
+              :image="item.icon"
+              :icon="item.icon === undefined ? getBrandIconPath(item.brand) : undefined"
+              class="avatar-icon"
+            ></v-avatar>
           </template>
         </v-list-item>
       </v-list>
     </v-row>
   </v-container>
 </template>
+
+<style lang="css" scoped>
+.idol-name {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.avatar-icon {
+  border-radius: 50%;
+  box-shadow: 0 5px 10px 0 rgba(137, 156, 174, 0.5);
+  padding: 0.5rem;
+  transform: scale(1.25);
+}
+</style>

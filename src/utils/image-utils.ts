@@ -11,9 +11,9 @@ import { BRAND_COLOR } from "@/data/const";
 import type { Brand } from "@/types/Brand";
 
 /**
- * ブランド識別子からブランドロゴのパスを取得する
+ * ブランド識別子からブランドロゴのコンポーネントを取得する
  * @param brand ブランド識別子
- * @returns ブランドロゴのパス
+ * @returns ブランドロゴのコンポーネント
  */
 export const getBrandIconPath = (brand: Brand | undefined): IconValue => {
   switch (brand) {

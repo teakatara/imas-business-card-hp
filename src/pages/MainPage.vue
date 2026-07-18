@@ -21,10 +21,8 @@ import Title from "@/components/Title.vue";
           <!-- 各ブランド情報表示 -->
           <ProducerInformationArea />
         </v-row>
-        <v-row>
-          <Footer />
-        </v-row>
       </v-container>
+      <Footer />
     </v-main>
   </v-app>
 </template>

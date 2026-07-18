@@ -55,31 +55,31 @@ export const BRAND_COLOR: Record<Brand, string> = {
 export const GAME_ID_LIST: GameId[] = [
   {
     title: "アイドルマスター シンデレラガールズ スターライトステージ",
-    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
+    gameId: "809649120",
     icon: CINDERELLA_GIRLS_STAGELIVE_ICON_IMAGE,
     brand: "CG",
   },
   {
     title: "アイドルマスター ミリオンライブ！ シアターデイズ",
-    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
+    gameId: "QUJW55MJ",
     icon: MILLION_LIVE_THEATER_DAYS_ICON_IMAGE,
     brand: "ML",
   },
   {
     title: "アイドルマスター シャイニーカラーズ",
-    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
+    gameId: "xfZh7LXJQK",
     icon: SHINY_COLORS_ICON_IMAGE,
     brand: "SC",
   },
   {
     title: "アイドルマスター シャイニーカラーズ Song for Prism",
-    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
+    gameId: "U8LSSKAYH",
     icon: SHINY_COLORS_SFP_ICON_IMAGE,
     brand: "SC",
   },
   {
     title: "学園アイドルマスター",
-    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
+    gameId: "256JSYG8",
     icon: Gakuen_ICON_IMAGE,
     brand: "Gk",
   },

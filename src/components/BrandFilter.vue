@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
+import BrandFilterButton from "@/components/BrandFilterButton.vue";
 import type { Brand } from "@/types/Brand";
 import { isBrand } from "@/utils/brand-utils";
 
@@ -32,13 +33,13 @@ defineExpose({
 <template>
   <v-container>
     <v-row class="d-flex align-center justify-center fill-height">
-      <v-btn @click="onClickBrandButton">ALL</v-btn>
-      <v-btn data-brand="AS" @click="onClickBrandButton">AS</v-btn>
-      <v-btn data-brand="CG" @click="onClickBrandButton">CG</v-btn>
-      <v-btn data-brand="ML" @click="onClickBrandButton">ML</v-btn>
-      <v-btn data-brand="SM" @click="onClickBrandButton">SM</v-btn>
-      <v-btn data-brand="SC" @click="onClickBrandButton">SC</v-btn>
-      <v-btn data-brand="Gk" @click="onClickBrandButton">Gk</v-btn>
+      <BrandFilterButton @click="onClickBrandButton" />
+      <BrandFilterButton :brand="'AS'" @click="onClickBrandButton" />
+      <BrandFilterButton :brand="'CG'" @click="onClickBrandButton" />
+      <BrandFilterButton :brand="'ML'" @click="onClickBrandButton" />
+      <BrandFilterButton :brand="'SM'" @click="onClickBrandButton" />
+      <BrandFilterButton :brand="'SC'" @click="onClickBrandButton" />
+      <BrandFilterButton :brand="'Gk'" @click="onClickBrandButton" />
     </v-row>
   </v-container>
 </template>

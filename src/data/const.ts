@@ -1,6 +1,7 @@
 import businessCardBackFaceImage from "@/assets/imgs/business-cards/名刺サイズの画像2.png";
 import businessCardFrontFaceImage from "@/assets/imgs/business-cards/名刺サイズの画像.png";
 import gameIconImage from "@/assets/imgs/game-icons/アプリアイコンサイズの画像.png";
+import type { Brand } from "@/types/Brand";
 import type { BusinessCardInfo } from "@/types/BusinessCard";
 import type { GameId } from "@/types/GameId";
 import type { Music } from "@/types/Music";
@@ -25,6 +26,16 @@ export const BUSINESS_CARD_LIST: BusinessCardInfo[] = [
     businessCardBackFaceImageSrc: businessCardBackFaceImage,
   },
 ];
+
+/** 各ブランドの色定義 */
+export const BRAND_COLOR: Record<Brand, string> = {
+  AS: "#f34f6d",
+  CG: "#2681c8",
+  ML: "#ffc30b",
+  SM: "#0fbe94",
+  SC: "#8dbbff",
+  Gk: "#f39800",
+};
 
 export const GAME_ID_LIST: GameId[] = [
   {

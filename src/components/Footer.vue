@@ -14,14 +14,14 @@ const openAboutModal = (): void => {
 <template>
   <v-footer color="green-lighten-1">
     <v-container class="footer-container">
-      <v-row justify="center" align="center">
+      <v-row justify="center" align="center" class="mt-0">
         <v-btn icon :href="`https://x.com/${X_ID}`" target="_blank" rel="noopener noreferrer" aria-label="Xを開く">
           <v-img :src="xLogo" class="x-button" alt="X" />
         </v-btn>
         <span> @{{ X_ID }} </span>
       </v-row>
-      <v-row justify="center">
-        <a href="#" class="about-link" @click.prevent="openAboutModal"> 当サイトについて </a>
+      <v-row justify="center" class="mt-0">
+        <v-btn variant="text" class="about-link" color="white" @click="openAboutModal"> 当サイトについて </v-btn>
       </v-row>
     </v-container>
     <AboutSiteModal ref="modalRef" />

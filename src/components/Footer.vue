@@ -15,8 +15,8 @@ const openAboutModal = (): void => {
   <v-footer color="green-lighten-1">
     <v-container class="footer-container">
       <v-row justify="center" align="center">
-        <v-btn icon :href="`https://x.com/${X_ID}`" target="_blank" rel="noopener noreferrer">
-          <v-img :src="xLogo" class="x-button" />
+        <v-btn icon :href="`https://x.com/${X_ID}`" target="_blank" rel="noopener noreferrer" aria-label="Xを開く">
+          <v-img :src="xLogo" class="x-button" alt="X" />
         </v-btn>
         <span> @{{ X_ID }} </span>
       </v-row>

@@ -36,13 +36,13 @@ defineExpose({
       <h2>Brand Filter</h2>
     </v-row>
     <v-row class="d-flex align-center justify-center mt-0">
-      <BrandFilterButton @click="onClickBrandButton" />
-      <BrandFilterButton :brand="'AS'" @click="onClickBrandButton" />
-      <BrandFilterButton :brand="'CG'" @click="onClickBrandButton" />
-      <BrandFilterButton :brand="'ML'" @click="onClickBrandButton" />
-      <BrandFilterButton :brand="'SM'" @click="onClickBrandButton" />
-      <BrandFilterButton :brand="'SC'" @click="onClickBrandButton" />
-      <BrandFilterButton :brand="'Gk'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'AS'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'CG'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'ML'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'SM'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'SC'" @click="onClickBrandButton" />
+      <BrandFilterButton :selected-brand="selectedBrand" :brand="'Gk'" @click="onClickBrandButton" />
     </v-row>
   </v-container>
 </template>

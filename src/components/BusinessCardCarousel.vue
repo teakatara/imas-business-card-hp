@@ -112,7 +112,7 @@ const businessCardList = ref<BusinessCardInfoWithState[]>(businessCardOptions.bu
   max-width: 100%;
   min-width: 35%;
   width: 620px;
-  aspect-ratio: 1.654;
+  aspect-ratio: 91 / 55;
 }
 
 :deep(.swiper-button-next),

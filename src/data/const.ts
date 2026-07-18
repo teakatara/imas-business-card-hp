@@ -6,8 +6,8 @@ import ACT_3_BACK_IMAGE from "@/assets/imgs/business-cards/ML10th-Act3/business-
 import ACT_3_FRONT_IMAGE from "@/assets/imgs/business-cards/ML10th-Act3/business-card-front.png";
 import ACT_4_BACK_IMAGE from "@/assets/imgs/business-cards/ML10th-Act4/business-card-back.png";
 import ACT_4_FRONT_IMAGE from "@/assets/imgs/business-cards/ML10th-Act4/business-card-front.png";
-import CINDERELLA_GIRLS_STAGELIVE_ICON_IMAGE from "@/assets/imgs/game-icons/CINDERELLA-GIRLS_STARLIGHT-STAGE.png";
-import Gakuen_ICON_IMAGE from "@/assets/imgs/game-icons/Gakuen.png";
+import CINDERELLA_GIRLS_STARLIGHT_STAGE_ICON_IMAGE from "@/assets/imgs/game-icons/CINDERELLA-GIRLS_STARLIGHT-STAGE.png";
+import GAKUEN_ICON_IMAGE from "@/assets/imgs/game-icons/Gakuen.png";
 import MILLION_LIVE_THEATER_DAYS_ICON_IMAGE from "@/assets/imgs/game-icons/MILLION-LIVE!_THEATER-DAYS.png";
 import SHINY_COLORS_ICON_IMAGE from "@/assets/imgs/game-icons/SHINY-COLORS.png";
 import SHINY_COLORS_SFP_ICON_IMAGE from "@/assets/imgs/game-icons/SHINY-COLORS_SONG-FOR-PRISM.png";
@@ -56,7 +56,7 @@ export const GAME_ID_LIST: GameId[] = [
   {
     title: "アイドルマスター シンデレラガールズ スターライトステージ",
     gameId: "809649120",
-    icon: CINDERELLA_GIRLS_STAGELIVE_ICON_IMAGE,
+    icon: CINDERELLA_GIRLS_STARLIGHT_STAGE_ICON_IMAGE,
     brand: "CG",
   },
   {
@@ -80,7 +80,7 @@ export const GAME_ID_LIST: GameId[] = [
   {
     title: "学園アイドルマスター",
     gameId: "256JSYG8",
-    icon: Gakuen_ICON_IMAGE,
+    icon: GAKUEN_ICON_IMAGE,
     brand: "Gk",
   },
 ];

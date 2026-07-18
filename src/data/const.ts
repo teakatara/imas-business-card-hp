@@ -1,6 +1,10 @@
 import businessCardBackFaceImage from "@/assets/imgs/business-cards/名刺サイズの画像2.png";
 import businessCardFrontFaceImage from "@/assets/imgs/business-cards/名刺サイズの画像.png";
-import gameIconImage from "@/assets/imgs/game-icons/アプリアイコンサイズの画像.png";
+import CINDERELLA_GIRLS_STAGELIVE_ICON_IMAGE from "@/assets/imgs/game-icons/CINDERELLA-GIRLS_STARLIGHT-STAGE.png";
+import Gakuen_ICON_IMAGE from "@/assets/imgs/game-icons/Gakuen.png";
+import MILLION_LIVE_THEATER_DAYS_ICON_IMAGE from "@/assets/imgs/game-icons/MILLION-LIVE!_THEATER-DAYS.png";
+import SHINY_COLORS_ICON_IMAGE from "@/assets/imgs/game-icons/SHINY-COLORS.png";
+import SHINY_COLORS_SFP_ICON_IMAGE from "@/assets/imgs/game-icons/SHINY-COLORS_SONG-FOR-PRISM.png";
 import type { Brand } from "@/types/Brand";
 import type { BusinessCardInfo } from "@/types/BusinessCard";
 import type { GameId } from "@/types/GameId";
@@ -41,14 +45,32 @@ export const GAME_ID_LIST: GameId[] = [
   {
     title: "アイドルマスター シンデレラガールズ スターライトステージ",
     gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
-    icon: gameIconImage,
+    icon: CINDERELLA_GIRLS_STAGELIVE_ICON_IMAGE,
     brand: "CG",
   },
   {
     title: "アイドルマスター ミリオンライブ！ シアターデイズ",
     gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
-    icon: gameIconImage,
+    icon: MILLION_LIVE_THEATER_DAYS_ICON_IMAGE,
     brand: "ML",
+  },
+  {
+    title: "アイドルマスター シャイニーカラーズ",
+    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
+    icon: SHINY_COLORS_ICON_IMAGE,
+    brand: "SC",
+  },
+  {
+    title: "アイドルマスター シャイニーカラーズ Song for Prism",
+    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
+    icon: SHINY_COLORS_SFP_ICON_IMAGE,
+    brand: "SC",
+  },
+  {
+    title: "学園アイドルマスター",
+    gameId: "1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf1234567890qawsedrf",
+    icon: Gakuen_ICON_IMAGE,
+    brand: "Gk",
   },
 ];
 

@@ -120,3 +120,6 @@ export const PRODUCE_IDOL_LIST: ProduceIdol[] = [
     brand: "Gk",
   },
 ];
+
+/** XのID */
+export const X_ID = "tea_idolmaster";

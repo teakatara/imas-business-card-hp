@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@fontsource/caveat": "^5.2.8",
+    "@fontsource/kaisei-tokumin": "^5.2.8",
     "@fontsource/roboto": "^5.2.10",
     "@mdi/js": "^7.4.47",
     "swiper": "^14.0.5",

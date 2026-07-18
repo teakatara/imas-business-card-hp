@@ -122,4 +122,4 @@ export const PRODUCE_IDOL_LIST: ProduceIdol[] = [
 ];
 
 /** XのID */
-export const xId = "tea_idolmaster";
+export const X_ID = "tea_idolmaster";

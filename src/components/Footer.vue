@@ -3,7 +3,7 @@ import { ref } from "vue";
 
 import xLogo from "@/assets/imgs/logo-black.png";
 import AboutSiteModal from "@/components/AboutSiteModal.vue";
-import { xId } from "@/data/const";
+import { X_ID } from "@/data/const";
 
 const modalRef = ref<InstanceType<typeof AboutSiteModal> | null>(null);
 const openAboutModal = (): void => {
@@ -15,10 +15,10 @@ const openAboutModal = (): void => {
   <v-footer color="green-lighten-1">
     <v-container class="footer-container">
       <v-row justify="center" align="center">
-        <v-btn icon :href="`https://x.com/${xId}`" target="_blank" rel="noopener noreferrer">
+        <v-btn icon :href="`https://x.com/${X_ID}`" target="_blank" rel="noopener noreferrer">
           <v-img :src="xLogo" class="x-button" />
         </v-btn>
-        <span> @{{ xId }} </span>
+        <span> @{{ X_ID }} </span>
       </v-row>
       <v-row justify="center">
         <a href="#" class="about-link" @click.prevent="openAboutModal"> 当サイトについて </a>

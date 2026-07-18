@@ -96,11 +96,7 @@ const businessCardList = ref<BusinessCardInfoWithState[]>(businessCardOptions.bu
     :navigation="true"
     :modules="[Autoplay, Navigation]"
   >
-    <swiper-slide
-      v-for="(businessCard, i) in businessCardList"
-      :key="i"
-      style="max-width: 100%; min-width: 35%; width: 620px"
-    >
+    <swiper-slide v-for="(businessCard, i) in businessCardList" :key="i" class="swiper-item">
       <BusinessCard
         :businessCardFrontFaceImageSrc="businessCard.businessCardFrontFaceImageSrc"
         :businessCardBackFaceImageSrc="businessCard.businessCardBackFaceImageSrc"
@@ -112,6 +108,13 @@ const businessCardList = ref<BusinessCardInfoWithState[]>(businessCardOptions.bu
 </template>
 
 <style scoped>
+.swiper-item {
+  max-width: 100%;
+  min-width: 35%;
+  width: 620px;
+  aspect-ratio: 1.654;
+}
+
 :deep(.swiper-button-next),
 :deep(.swiper-button-prev) {
   color: #000;

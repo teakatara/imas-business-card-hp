@@ -490,15 +490,655 @@ export const LIKE_MUSIC_LIST: Music[] = [
     brand: "CG",
   },
   {
-    title: "夢にかけるRainbow",
-    artist: "765 MILLION ALLSTARS",
-    brand: "ML",
+    "title": "Thank You!",
+    "artist": "765 MILLIONSTARS",
+    "brand": "ML"
   },
   {
-    title: "瑠璃色金魚と花菖蒲",
-    artist: "白石紬",
-    brand: "ML",
+    "title": "Legend Girls!!",
+    "artist": "天海春香, 天空橋朋花, 七尾百合子, 箱崎星梨花, 最上静香",
+    "brand": "ML"
   },
+  {
+    "title": "Rebellion",
+    "artist": "我那覇響",
+    "brand": "ML"
+  },
+  {
+    "title": "PRETTY DREAMER",
+    "artist": "我那覇響, 春日未来, 豊川風花, 望月杏奈, 横山奈緒",
+    "brand": "ML"
+  },
+  {
+    "title": "ライアー・ルージュ",
+    "artist": "北沢志保",
+    "brand": "ML"
+  },
+  {
+    "title": "Snow White",
+    "artist": "如月千早",
+    "brand": "ML"
+  },
+  {
+    "title": "Blue Symphony",
+    "artist": "如月千早, 北沢志保, 田中琴葉, 所恵美",
+    "brand": "ML"
+  },
+  {
+    "title": "Be My Boy",
+    "artist": "百瀬莉緒",
+    "brand": "ML"
+  },
+  {
+    "title": "Sentimental Venus",
+    "artist": "水瀬伊織, エミリー=スチュアート, 真壁瑞希, 百瀬莉緒",
+    "brand": "ML"
+  },
+  {
+    "title": "FIND YOUR WIND！",
+    "artist": "流星群",
+    "brand": "ML"
+  },
+  {
+    "title": "Marionetteは眠らない",
+    "artist": "星井美希, 伊吹翼, 北上麗花, ジュリア",
+    "brand": "ML"
+  },
+  {
+    "title": "チョー↑元気Show☆アイドルch@ng!",
+    "artist": "松田亜利沙",
+    "brand": "ML"
+  },
+  {
+    "title": "フェスタ・イルミネーション",
+    "artist": "徳川まつり",
+    "brand": "ML"
+  },
+  {
+    "title": "ハッピ～ エフェクト！",
+    "artist": "宮尾美也",
+    "brand": "ML"
+  },
+  {
+    "title": "瞳の中のシリウス",
+    "artist": "四条貴音, 高坂海美, 徳川まつり, 宮尾美也",
+    "brand": "ML"
+  },
+  {
+    "title": "dear...",
+    "artist": "馬場このみ",
+    "brand": "ML"
+  },
+  {
+    "title": "Welcome!!",
+    "artist": "765 MILLIONSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "合言葉はスタートアップ！",
+    "artist": "レジェンドデイズ",
+    "brand": "ML"
+  },
+  {
+    "title": "Growing Storm!",
+    "artist": "乙女ストーム！",
+    "brand": "ML"
+  },
+  {
+    "title": "...In The Name Of。 ...LOVE?",
+    "artist": "真壁瑞希",
+    "brand": "ML"
+  },
+  {
+    "title": "Believe my change!",
+    "artist": "伊吹翼",
+    "brand": "ML"
+  },
+  {
+    "title": "Shooting Stars",
+    "artist": "クレシェンドブルー",
+    "brand": "ML"
+  },
+  {
+    "title": "サマ☆トリ ~Summer trip~",
+    "artist": "北上麗花",
+    "brand": "ML"
+  },
+  {
+    "title": "絵本",
+    "artist": "北沢志保",
+    "brand": "ML"
+  },
+  {
+    "title": "Catch my dream",
+    "artist": "最上静香",
+    "brand": "ML"
+  },
+  {
+    "title": "Eternal Harmony",
+    "artist": "エターナルハーモニー",
+    "brand": "ML"
+  },
+  {
+    "title": "プラリネ",
+    "artist": "ジュリア",
+    "brand": "ML"
+  },
+  {
+    "title": "bitter sweet",
+    "artist": "豊川風花",
+    "brand": "ML"
+  },
+  {
+    "title": "Just be myself!!",
+    "artist": "如月千早",
+    "brand": "ML"
+  },
+  {
+    "title": "HOME, SWEET FRIENDSHIP",
+    "artist": "リコッタ",
+    "brand": "ML"
+  },
+  {
+    "title": "Super Lover",
+    "artist": "横山奈緒",
+    "brand": "ML"
+  },
+  {
+    "title": "Up!10sion♪Pleeeeeeeeease!",
+    "artist": "松田亜利沙",
+    "brand": "ML"
+  },
+  {
+    "title": "フローズン・ワード",
+    "artist": "所恵美",
+    "brand": "ML"
+  },
+  {
+    "title": "水中キャンディ",
+    "artist": "馬場このみ",
+    "brand": "ML"
+  },
+  {
+    "title": "Day After “ Yesterday”",
+    "artist": "永吉昴",
+    "brand": "ML"
+  },
+  {
+    "title": "WHY?",
+    "artist": "百瀬莉緒",
+    "brand": "ML"
+  },
+  {
+    "title": "STEREOPHONIC ISOTONIC",
+    "artist": "ロコ",
+    "brand": "ML"
+  },
+  {
+    "title": "Dreaming!",
+    "artist": "765 MILLIONSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "アライブファクター",
+    "artist": "如月千早×最上静香",
+    "brand": "ML"
+  },
+  {
+    "title": "Persona Voice",
+    "artist": "二階堂千鶴×萩原雪歩",
+    "brand": "ML"
+  },
+  {
+    "title": "Decided",
+    "artist": "徳川まつり×馬場このみ",
+    "brand": "ML"
+  },
+  {
+    "title": "深層マーメイド",
+    "artist": "伊吹翼×我那覇響",
+    "brand": "ML"
+  },
+  {
+    "title": "little trip around the world",
+    "artist": "エミリー スチュアート×水瀬伊織",
+    "brand": "ML"
+  },
+  {
+    "title": "fruity love",
+    "artist": "野々原茜×ロコ",
+    "brand": "ML"
+  },
+  {
+    "title": "夜に輝く星座のように",
+    "artist": "松田亜利沙×横山奈緒",
+    "brand": "ML"
+  },
+  {
+    "title": "アイル (Harmonized ver.)",
+    "artist": "伊吹翼, ジュリア, 真壁瑞希",
+    "brand": "ML"
+  },
+  {
+    "title": "サンリズム・オーケストラ♪",
+    "artist": "Sunshine Rhythm",
+    "brand": "ML"
+  },
+  {
+    "title": "Raise the FLAG",
+    "artist": "サジタリアス",
+    "brand": "ML"
+  },
+  {
+    "title": "P.S I Love You",
+    "artist": "ピスケス",
+    "brand": "ML"
+  },
+  {
+    "title": "プリムラ",
+    "artist": "ウィルゴ",
+    "brand": "ML"
+  },
+  {
+    "title": "待ちぼうけのLacrima",
+    "artist": "アクアリウス",
+    "brand": "ML"
+  },
+  {
+    "title": "brave HARMONY",
+    "artist": "BlueMoon Harmony",
+    "brand": "ML"
+  },
+  {
+    "title": "Sweet Sweet Soul",
+    "artist": "アリエス",
+    "brand": "ML"
+  },
+  {
+    "title": "メメント？モメント♪ルルルルル☆",
+    "artist": "タウラス",
+    "brand": "ML"
+  },
+  {
+    "title": "Starry Melody",
+    "artist": "Starlight Melody",
+    "brand": "ML"
+  },
+  {
+    "title": "俠気乱舞",
+    "artist": "ジュリア, 周防桃子, 大神環, 木下ひなた, 福田のり子",
+    "brand": "ML"
+  },
+  {
+    "title": "Brand New Theater!",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "インヴィンシブル・ジャスティス",
+    "artist": "伊吹翼, 高坂海美",
+    "brand": "ML"
+  },
+  {
+    "title": "FairyTaleじゃいられない",
+    "artist": "フェアリースターズ",
+    "brand": "ML"
+  },
+  {
+    "title": "Princess Be Ambitious!!",
+    "artist": "プリンセススターズ",
+    "brand": "ML"
+  },
+  {
+    "title": "昏き星, 遠い月",
+    "artist": "夜想令嬢 -GRAC&E NOCTURNE-",
+    "brand": "ML"
+  },
+  {
+    "title": "Everlasting",
+    "artist": "夜想令嬢 -GRAC&E NOCTURNE-",
+    "brand": "ML"
+  },
+  {
+    "title": "虹色letters",
+    "artist": "Cleasky",
+    "brand": "ML"
+  },
+  {
+    "title": "想い出はクリアスカイ",
+    "artist": "Cleasky",
+    "brand": "ML"
+  },
+  {
+    "title": "Melty Fantasia",
+    "artist": "EScape",
+    "brand": "ML"
+  },
+  {
+    "title": "I.D～EScape from Utopia",
+    "artist": "EScape",
+    "brand": "ML"
+  },
+  {
+    "title": "花ざかりWeekend✿",
+    "artist": "4 Luxury",
+    "brand": "ML"
+  },
+  {
+    "title": "RED ZONE",
+    "artist": "4 Luxury",
+    "brand": "ML"
+  },
+  {
+    "title": "BORN ON DREAM! ～HANABI☆NIGHT～",
+    "artist": "閃光☆HANABI団",
+    "brand": "ML"
+  },
+  {
+    "title": "UNION!!",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "ミラージュ・ミラー",
+    "artist": "Charlotte・Charlotte",
+    "brand": "ML"
+  },
+  {
+    "title": "ギブミーメタファー",
+    "artist": "STAR ELEMENTS",
+    "brand": "ML"
+  },
+  {
+    "title": "ローリング△さんかく",
+    "artist": "周防桃子",
+    "brand": "ML"
+  },
+  {
+    "title": "瑠璃色金魚と花菖蒲",
+    "artist": "白石紬",
+    "brand": "ML"
+  },
+  {
+    "title": "プリンセス・アラモード",
+    "artist": "徳川まつり",
+    "brand": "ML"
+  },
+  {
+    "title": "ロケットスター☆",
+    "artist": "伊吹翼",
+    "brand": "ML"
+  },
+  {
+    "title": "CAT CROSSING",
+    "artist": "北沢志保",
+    "brand": "ML"
+  },
+  {
+    "title": "ハミングバード",
+    "artist": "桜守歌織",
+    "brand": "ML"
+  },
+  {
+    "title": "Only One Second",
+    "artist": "高山紗代子",
+    "brand": "ML"
+  },
+  {
+    "title": "Silent Joker",
+    "artist": "真壁瑞希",
+    "brand": "ML"
+  },
+  {
+    "title": "スタートリップ",
+    "artist": "ジュリア",
+    "brand": "ML"
+  },
+  {
+    "title": "スノウレター",
+    "artist": "木下ひなた",
+    "brand": "ML"
+  },
+  {
+    "title": "教えてlast note…",
+    "artist": "篠宮可憐",
+    "brand": "ML"
+  },
+  {
+    "title": "空に手が触れる場所",
+    "artist": "北上麗花",
+    "brand": "ML"
+  },
+  {
+    "title": "ビッグバンズバリボー!!!!!",
+    "artist": "高坂海美, 所恵美, 高山紗代子, 豊川風花, 横山奈緒",
+    "brand": "ML"
+  },
+  {
+    "title": "ラスト・アクトレス",
+    "artist": "田中琴葉, 周防桃子, 馬場このみ, 真壁瑞希, 白石紬",
+    "brand": "ML"
+  },
+  {
+    "title": "Flyers!!!",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "Justice OR Voice",
+    "artist": "ジェネシス×ネメシス",
+    "brand": "ML"
+  },
+  {
+    "title": "Clover Days",
+    "artist": "Clover",
+    "brand": "ML"
+  },
+  {
+    "title": "Fermata in Rapsodia",
+    "artist": "ARCANA",
+    "brand": "ML"
+  },
+  {
+    "title": "百花は月下に散りぬるを",
+    "artist": "花咲夜",
+    "brand": "ML"
+  },
+  {
+    "title": "絶対的Performer",
+    "artist": "miraclesonic★expassion",
+    "brand": "ML"
+  },
+  {
+    "title": "My Evolution",
+    "artist": "miraclesonic★expassion",
+    "brand": "ML"
+  },
+  {
+    "title": "Glow Map",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "Do the IDOL!! ～断崖絶壁チュパカブラ～",
+    "artist": "天空橋朋花, エミリー スチュアート, 七尾百合子, 永吉昴, 伊吹翼",
+    "brand": "ML"
+  },
+  {
+    "title": "MUSIC JOURNEY",
+    "artist": "桜守歌織",
+    "brand": "ML"
+  },
+  {
+    "title": "さかしまの言葉",
+    "artist": "白石紬",
+    "brand": "ML"
+  },
+  {
+    "title": "ReTale",
+    "artist": "≡君彩≡",
+    "brand": "ML"
+  },
+  {
+    "title": "パンとフィルム",
+    "artist": "≡君彩≡",
+    "brand": "ML"
+  },
+  {
+    "title": "ABSOLUTE RUN!!!",
+    "artist": "ストロベリーポップムーン",
+    "brand": "ML"
+  },
+  {
+    "title": "Be proud",
+    "artist": "ストロベリーポップムーン",
+    "brand": "ML"
+  },
+  {
+    "title": "花びらメモリーズ",
+    "artist": "白石紬, 佐竹美奈子, 周防桃子, 所恵美",
+    "brand": "ML"
+  },
+  {
+    "title": "Harmony 4 You",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "EVERYDAY STARS!!",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "DIAMOND JOKER",
+    "artist": "伊吹翼, 徳川まつり, 四条貴音, 所恵美",
+    "brand": "ML"
+  },
+  {
+    "title": "ダイヤモンド・クラリティ",
+    "artist": "BRIGHT DIAMOND",
+    "brand": "ML"
+  },
+  {
+    "title": "Shamrock Vivace",
+    "artist": "CLEVER CLOVER",
+    "brand": "ML"
+  },
+  {
+    "title": "空色♡ Birthday Card",
+    "artist": "LOVERS HEART",
+    "brand": "ML"
+  },
+  {
+    "title": "LOVE is GAME",
+    "artist": "天空橋朋花, 高槻やよい, 佐竹美奈子, 七尾百合子",
+    "brand": "ML"
+  },
+  {
+    "title": "CHEER UP! HEARTS UP!",
+    "artist": "望月杏奈, 矢吹可奈, 天海春香, ジュリア",
+    "brand": "ML"
+  },
+  {
+    "title": "夢にかけるRainbow",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "ESPADA",
+    "artist": "SHADE OF SPADE",
+    "brand": "ML"
+  },
+  {
+    "title": "KING of SPADE",
+    "artist": "白石紬, 我那覇響, 豊川風花, 野々原茜",
+    "brand": "ML"
+  },
+  {
+    "title": "オレンジ・エピソード",
+    "artist": "佐竹美奈子, 北沢志保, 天海春香, 舞浜歩, 松田亜利沙",
+    "brand": "ML"
+  },
+  {
+    "title": "週末だけのハーレクイン",
+    "artist": "百瀬莉緒",
+    "brand": "ML"
+  },
+  {
+    "title": "グローインミュージック！",
+    "artist": "矢吹可奈",
+    "brand": "ML"
+  },
+  {
+    "title": "折紙物語",
+    "artist": "白石紬",
+    "brand": "ML"
+  },
+  {
+    "title": "稲妻スピリット",
+    "artist": "横山奈緒",
+    "brand": "ML"
+  },
+  {
+    "title": "ふたり繋ぐ星座",
+    "artist": "北上麗花",
+    "brand": "ML"
+  },
+  {
+    "title": "REACH THE SKY",
+    "artist": "高山紗代子",
+    "brand": "ML"
+  },
+  {
+    "title": "Vacation VS Summer ～ナツとヤスミのアンビバレント！～",
+    "artist": "徳川まつり, 大神環, 白石紬, 福田のり子, 三浦あずさ",
+    "brand": "ML"
+  },
+  {
+    "title": "春風満帆スターティング",
+    "artist": "萩原雪歩, 福田のり子, 菊地真, 最上静香, 永吉昴",
+    "brand": "ML"
+  },
+  {
+    "title": "リベレイシング／アロン -LiberaSing Along-",
+    "artist": "如月千早, 木下ひなた, 天空橋朋花, 徳川まつり, 馬場このみ",
+    "brand": "ML"
+  },
+  {
+    "title": "カンパリーナ♡",
+    "artist": "三浦あずさ, 二階堂千鶴, 四条貴音, 北上麗花, 豊川風花",
+    "brand": "ML"
+  },
+  {
+    "title": "Dance in the Light",
+    "artist": "舞浜歩, 水瀬伊織, 高山紗代子, 永吉昴, 百瀬莉緒",
+    "brand": "ML"
+  },
+  {
+    "title": "Crossing!",
+    "artist": "765 MILLION A- 箱崎星梨花, 天空橋朋花, 野々原茜, 馬場このみ",
+    "brand": "ML"
+  },
+  {
+    "title": "SunRiser",
+    "artist": "双海亜美, 秋月律子, 星井美希, 高槻やよい, 双海真美",
+    "brand": "ML"
+  },
+  {
+    "title": "ilLUmiNAte!",
+    "artist": "菊地真, 如月千早, 我那覇響, 三浦あずさ",
+    "brand": "ML"
+  },
+  {
+    "title": "Upper Dog",
+    "artist": "箱崎星梨花, 天空橋朋花, 野々原茜, 馬場このみ",
+    "brand": "ML"
+  },
+  {
+    "title": "飛べない僕は泳いだ",
+    "artist": "宮尾美也, 天空橋朋花, 徳川まつり",
+    "brand": "ML"
+  }
 ];
 
 export const PRODUCE_IDOL_LIST: ProduceIdol[] = [

@@ -1383,6 +1383,426 @@ export const LIKE_MUSIC_LIST: Music[] = [
     "title": "アニマ・フォルトゥナ",
     "artist": "蒼井享介, 秋月涼, 信玄誠司, 清澄九郎, 蒼井悠介, 天道 輝, 若里春名, 水嶋咲, 紅井朱雀",
     "brand": "SM"
+  },
+    {
+    "title": "Spread the Wings!!",
+    "artist": "シャイニーカラーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "ヒカリのdestination",
+    "artist": "イルミネーションスターズ",
+    "brand": "SC"
+  },
+  {
+    "title": "アルストロメリア",
+    "artist": "アルストロメリア",
+    "brand": "SC"
+  },
+  {
+    "title": "夢咲きAfter school",
+    "artist": "放課後クライマックスガールズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Let's get a chance",
+    "artist": "シャイニーカラーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Ambitious Eve",
+    "artist": "シャイニーカラーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Wandering Dream Chaser",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "We can go now!",
+    "artist": "イルミネーションスターズ",
+    "brand": "SC"
+  },
+  {
+    "title": "ビーチブレイバー",
+    "artist": "放課後クライマックスガールズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Transcending The World",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "シャイノグラフィ",
+    "artist": "シャイニーカラーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Dye the sky.",
+    "artist": "シャイニーカラーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "いつだって僕らは",
+    "artist": "ノクチル",
+    "brand": "SC"
+  },
+  {
+    "title": "Hide & Attack",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "五ツ座流星群",
+    "artist": "放課後クライマックスガールズ",
+    "brand": "SC"
+  },
+  {
+    "title": "ダブル・イフェクト",
+    "artist": "アルストロメリア",
+    "brand": "SC"
+  },
+  {
+    "title": "夢見鳥",
+    "artist": "樋口円香",
+    "brand": "SC"
+  },
+  {
+    "title": "星をめざして",
+    "artist": "芹沢あさひ",
+    "brand": "SC"
+  },
+  {
+    "title": "わたしの主人公はわたしだから！",
+    "artist": "福丸小糸",
+    "brand": "SC"
+  },
+  {
+    "title": "スローモーション",
+    "artist": "風野灯織",
+    "brand": "SC"
+  },
+  {
+    "title": "HAREBARE!!",
+    "artist": "八宮めぐる",
+    "brand": "SC"
+  },
+  {
+    "title": "SOS",
+    "artist": "黛冬優子",
+    "brand": "SC"
+  },
+  {
+    "title": "過純性ブリーチ",
+    "artist": "西城樹里",
+    "brand": "SC"
+  },
+  {
+    "title": "SOLAR WAY",
+    "artist": "Team.Sol",
+    "brand": "SC"
+  },
+  {
+    "title": "スマイルシンフォニア",
+    "artist": "イルミネーションスターズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Another Rampage",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "Timeless Shooting Star",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "Fly and Fly",
+    "artist": "シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "神様は死んだ、って",
+    "artist": "斑鳩ルカ",
+    "brand": "SC"
+  },
+  {
+    "title": "虹の行方",
+    "artist": "シャイニーカラーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "愚者の独白",
+    "artist": "アンティーカ",
+    "brand": "SC"
+  },
+  {
+    "title": "Give me some more...",
+    "artist": "アルストロメリア",
+    "brand": "SC"
+  },
+  {
+    "title": "Tracing Defender",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "Overdrive Emotion",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "Fashionable",
+    "artist": "シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Bouncy Girl",
+    "artist": "シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Imitation Ghost",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "Look up to the sky",
+    "artist": "緋田美琴",
+    "brand": "SC"
+  },
+  {
+    "title": "BURN BURN",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "Forbidden Paradise",
+    "artist": "シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "SWEETEST BITE",
+    "artist": "シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "White Story",
+    "artist": "シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "平行線の美学",
+    "artist": "コメティック",
+    "brand": "SC"
+  },
+  {
+    "title": "ハナムケのハナタバ",
+    "artist": "コメティック",
+    "brand": "SC"
+  },
+  {
+    "title": "輝きにかわる",
+    "artist": "大崎甘奈, 市川雛菜, 田中摩美々",
+    "brand": "SC"
+  },
+  {
+    "title": "青空",
+    "artist": "ノクチル",
+    "brand": "SC"
+  },
+  {
+    "title": "Happier",
+    "artist": "シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "枕木の歌",
+    "artist": "イルミネーションスターズ",
+    "brand": "SC"
+  },
+  {
+    "title": "LINKs",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "After Run",
+    "artist": "シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "OPEN the New world",
+    "artist": "ポップゾンビ",
+    "brand": "SC"
+  },
+  {
+    "title": "mellow mellow",
+    "artist": "アルストロメリア",
+    "brand": "SC"
+  },
+  {
+    "title": "サマーサマーオーシャンパーリィバケーション",
+    "artist": "八宮めぐる, 三峰結華, 小宮果穂, 大崎甜花, 黛冬優子, 福丸小糸, 緋田美琴, 郁田はるき",
+    "brand": "SC"
+  },
+  {
+    "title": "C’mon! Join Us",
+    "artist": "シャイニーカラーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "愛なView",
+    "artist": "シャイニーカラーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Cyber Parkour",
+    "artist": "ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "Heads or Tails？",
+    "artist": "コメティック",
+    "brand": "SC"
+  },
+  {
+    "title": "いつかのキミへ",
+    "artist": "ノクチル",
+    "brand": "SC"
+  },
+  {
+    "title": "さあ舞い上がれ",
+    "artist": "放課後クライマックスガールズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Monochromatic",
+    "artist": "シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "Shower of light",
+    "artist": "イルミネーションスターズ",
+    "brand": "SC"
+  },
+  {
+    "title": "泥濘鳴鳴",
+    "artist": "コメティック",
+    "brand": "SC"
+  },
+  {
+    "title": "Clean.Clean up",
+    "artist": "コメティック",
+    "brand": "SC"
+  },
+  {
+    "title": "無垢",
+    "artist": "鈴木羽那",
+    "brand": "SC"
+  },
+  {
+    "title": "夢模様キャンバス",
+    "artist": "郁田はるき",
+    "brand": "SC"
+  },
+  {
+    "title": "1/3",
+    "artist": "斑鳩ルカ",
+    "brand": "SC"
+  },
+  {
+    "title": "快盗Vを見逃すな",
+    "artist": "放課後クライマックスガールズ",
+    "brand": "SC"
+  },
+  {
+    "title": "THE LAST PRIDE",
+    "artist": "アンティーカ",
+    "brand": "SC"
+  },
+  {
+    "title": "Pioneer Impact",
+    "artist": "アンティーカ×シーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "迅雷鉄火",
+    "artist": "放クラ×ストレイライト",
+    "brand": "SC"
+  },
+  {
+    "title": "リフレインブレイン",
+    "artist": "アルストロメリア×コメティック",
+    "brand": "SC"
+  },
+  {
+    "title": "似セ者",
+    "artist": "コメティック",
+    "brand": "SC"
+  },
+  {
+    "title": "QUEEN OF THE PIRATES",
+    "artist": "アンティーカ",
+    "brand": "SC"
+  },
+  {
+    "title": "Sparkle",
+    "artist": "イルミネーションスターズ×ノクチル",
+    "brand": "SC"
+  },
+  {
+    "title": "キラピコ.exe",
+    "artist": "放課後クライマックスガールズ",
+    "brand": "SC"
+  },
+  {
+    "title": "カウントダウンラブ",
+    "artist": "I'm a Cutie Finder",
+    "brand": "SC"
+  },
+  {
+    "title": "KAWAII♡めたもる交響曲",
+    "artist": "I'm a Cutie Finder",
+    "brand": "SC"
+  },
+  {
+    "title": "Karma",
+    "artist": "Fumage",
+    "brand": "SC"
+  },
+  {
+    "title": "Naraku",
+    "artist": "Fumage",
+    "brand": "SC"
+  },
+  {
+    "title": "感謝のコントレイル",
+    "artist": "シャイニーカラーズ",
+    "brand": "SC"
+  },
+  {
+    "title": "放っておかないファイヴァーズ",
+    "artist": "放課後クライマックスガールズ",
+    "brand": "SC"
+  },
+  {
+    "title": "散花-sanka-",
+    "artist": "彼岸流",
+    "brand": "SC"
+  },
+  {
+    "title": "Tokyo自由系*ガール",
+    "artist": "No 1 feel alone",
+    "brand": "SC"
+  },
+  {
+    "title": "My time",
+    "artist": "No 1 feel alone",
+    "brand": "SC"
   }
 ];
 

@@ -345,7 +345,7 @@ export const LIKE_MUSIC_LIST: Music[] = [
   },
   {
     title: "ØωØver!!",
-    artist: "\\*(Asterisk)",
+    artist: "*(Asterisk)",
     brand: "CG",
   },
   {
@@ -365,7 +365,7 @@ export const LIKE_MUSIC_LIST: Music[] = [
   },
   {
     title: "Wonder goes on!!",
-    artist: "\\*(Asterisk) with なつなな(安部菜々＆木村夏樹)",
+    artist: "*(Asterisk) with なつなな(安部菜々＆木村夏樹)",
     brand: "CG",
   },
   {
@@ -1253,6 +1253,136 @@ export const LIKE_MUSIC_LIST: Music[] = [
     "title": "SPARKERS",
     "artist": "高山紗代子",
     "brand": "ML"
+  },
+    {
+    "title": "DRIVE A LIVE",
+    "artist": "315 ALLSTARS",
+    "brand": "SM"
+  },
+  {
+    "title": "BRAND NEW FIELD",
+    "artist": "Jupiter",
+    "brand": "SM"
+  },
+  {
+    "title": "スマイル・エンゲージ",
+    "artist": "Beit",
+    "brand": "SM"
+  },
+  {
+    "title": "Study Equal Magic!",
+    "artist": "S.E.M",
+    "brand": "SM"
+  },
+  {
+    "title": "バーニン・クールで輝いて",
+    "artist": "神速一魂",
+    "brand": "SM"
+  },
+  {
+    "title": "MOON NIGHTのせいにして",
+    "artist": "DRAMATIC STARS",
+    "brand": "SM"
+  },
+  {
+    "title": "From Teacher To Future!",
+    "artist": "S.E.M",
+    "brand": "SM"
+  },
+  {
+    "title": "冬の日のエトランゼ",
+    "artist": "DRAMATIC STARS, Beit",
+    "brand": "SM"
+  },
+  {
+    "title": "Swing Your Leaves",
+    "artist": "FRAME",
+    "brand": "SM"
+  },
+  {
+    "title": "Hungry?",
+    "artist": "THE 虎牙道",
+    "brand": "SM"
+  },
+  {
+    "title": "喜怒哀楽万国共通-Burn it up!-",
+    "artist": "神速一魂",
+    "brand": "SM"
+  },
+  {
+    "title": "Growing Smiles！",
+    "artist": "315 ALLSTARS",
+    "brand": "SM"
+  },
+  {
+    "title": "We're the one",
+    "artist": "C.FIRST",
+    "brand": "SM"
+  },
+  {
+    "title": "Not Alone",
+    "artist": "C.FIRST",
+    "brand": "SM"
+  },
+  {
+    "title": "Plus 1 Good Day!",
+    "artist": "FRAME",
+    "brand": "SM"
+  },
+  {
+    "title": "はるかぜバトン",
+    "artist": "もふもふえん",
+    "brand": "SM"
+  },
+  {
+    "title": "Take a StuMp!",
+    "artist": "315 ALLSTARS",
+    "brand": "SM"
+  },
+  {
+    "title": "Platinum MASK",
+    "artist": "Beit",
+    "brand": "SM"
+  },
+  {
+    "title": "宵闇のイリュージョン",
+    "artist": "THE 虎牙道",
+    "brand": "SM"
+  },
+  {
+    "title": "ULTIMATE FLAME",
+    "artist": "FRAME",
+    "brand": "SM"
+  },
+  {
+    "title": "The Radical JOKER",
+    "artist": "High×Joker",
+    "brand": "SM"
+  },
+  {
+    "title": "SUPERNOVA",
+    "artist": "THE 虎牙道",
+    "brand": "SM"
+  },
+  {
+    "title": "Sunny day, Perfect day",
+    "artist": "C.FIRST",
+    "brand": "SM"
+  },
+  {
+    "title": "SUPREME STARS !!!",
+    "artist": "315 ALLSTARS",
+    "brand": "SM"
+  },
+  {
+    "title": "FANTASTIC DISCOTHEQUE",
+    "artist": "F-LAGS",
+    "brand": "SM"
+  },
+  {
+    "title": "アニマ・フォルトゥナ",
+    "artist": "蒼井享介, 秋月涼, 信玄誠司, 清澄九郎, 蒼井悠介, 天道 輝, 若里春名, 水嶋咲, 紅井朱雀",
+    "brand": "SM"
   }
 ];
 

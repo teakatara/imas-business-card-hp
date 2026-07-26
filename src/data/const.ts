@@ -1116,7 +1116,57 @@ export const LIKE_MUSIC_LIST: Music[] = [
   },
   {
     "title": "Crossing!",
-    "artist": "765 MILLION A- 箱崎星梨花, 天空橋朋花, 野々原茜, 馬場このみ",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "グッドサイン",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "電波感傷",
+    "artist": "オフィウクス",
+    "brand": "ML"
+  },
+  {
+    "title": "Rat A Tat!!!",
+    "artist": "MILLIONSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "セブンカウント",
+    "artist": "MILLIONSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "Star Impression",
+    "artist": "MILLIONSTARS Team1st",
+    "brand": "ML"
+  },
+  {
+    "title": "海風とカスタネット",
+    "artist": "MILLIONSTARS Team2nd",
+    "brand": "ML"
+  },
+  {
+    "title": "オレンジノキオク",
+    "artist": "MILLIONSTARS Team3rd",
+    "brand": "ML"
+  },
+  {
+    "title": "バトンタッチ",
+    "artist": "MILLIONSTARS Team5th",
+    "brand": "ML"
+  },
+  {
+    "title": "トワラー",
+    "artist": "MILLIONSTARS Team7th",
+    "brand": "ML"
+  },
+  {
+    "title": "REFRAIN REL@TION",
+    "artist": "MILLIONSTARS Team8th",
     "brand": "ML"
   },
   {
@@ -1135,8 +1185,73 @@ export const LIKE_MUSIC_LIST: Music[] = [
     "brand": "ML"
   },
   {
+    "title": "Hypernova",
+    "artist": "永吉昴, 高山紗代子, 篠宮可憐, 二階堂千鶴, 松田亜利沙",
+    "brand": "ML"
+  },
+  {
+    "title": "推しってほんと",
+    "artist": "所恵美, 島原エレナ, 佐竹美奈子, 田中琴葉, 矢吹可奈",
+    "brand": "ML"
+  },
+  {
+    "title": "未完成のポラリス",
+    "artist": "宮尾美也, 望月杏奈, 舞浜歩, 横山奈緒",
+    "brand": "ML"
+  },
+  {
+    "title": "Sky Survive",
+    "artist": "白石紬, 福田のり子, 伊吹翼, 木下ひなた",
+    "brand": "ML"
+  },
+  {
+    "title": "All Alone",
+    "artist": "エミリー・スチュアート, 北上麗花, 春日未来, 北沢志保",
+    "brand": "ML"
+  },
+  {
+    "title": "I.V.",
+    "artist": "真壁瑞希, 七尾百合子, 最上静香, 百瀬莉緒, ロコ",
+    "brand": "ML"
+  },
+  {
+    "title": "7Days A Week!!",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
+    "title": "頂上決戦ヴィクトリー!!!!!!",
+    "artist": "最上静香, 菊地真, エミリー・スチュアート, 大神環, 北上麗花, 天空橋朋花",
+    "brand": "ML"
+  },
+  {
+    "title": "Clash of Colors",
+    "artist": "横山奈緒, 真壁瑞希, 萩原雪歩, 永吉昴",
+    "brand": "ML"
+  },
+  {
+    "title": "不思議発見ラボ！",
+    "artist": "木下ひなた, 矢吹可奈, 白石紬",
+    "brand": "ML"
+  },
+  {
+    "title": "Texting you",
+    "artist": "高山紗代子, 野々原茜, 所恵美",
+    "brand": "ML"
+  },
+  {
+    "title": "蝶々むすび",
+    "artist": "765 MILLION ALLSTARS",
+    "brand": "ML"
+  },
+  {
     "title": "飛べない僕は泳いだ",
     "artist": "宮尾美也, 天空橋朋花, 徳川まつり",
+    "brand": "ML"
+  },
+  {
+    "title": "SPARKERS",
+    "artist": "高山紗代子",
     "brand": "ML"
   }
 ];
